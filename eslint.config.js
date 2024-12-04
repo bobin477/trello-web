@@ -21,7 +21,7 @@ export default [
     plugins: {
       react,
       'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
+      'react-refresh': reactRefresh
     },
     rules: {
       ...js.configs.recommended.rules,
@@ -41,9 +41,9 @@ export default [
       'no-multiple-empty-lines': 1,
       'space-before-blocks': ['error', 'always'],
       'object-curly-spacing': [1, 'always'],
-      'indent': ['warn', 2],
-      'semi': [1, 'never'],
-      'quotes': ['error', 'single'],
+      indent: ['warn', 2],
+      semi: [1, 'never'],
+      quotes: ['error', 'single'],
       'array-bracket-spacing': 1,
       'linebreak-style': 0,
       'no-unexpected-multiline': 'warn',
@@ -54,7 +54,7 @@ export default [
       'no-restricted-imports': [
         'error',
         {
-          'patterns': ['@mui/*/*/*']
+          patterns: ['@mui/*/*/*']
         }
       ]
     }
